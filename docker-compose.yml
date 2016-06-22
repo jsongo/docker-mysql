@@ -8,9 +8,9 @@ services:
     ports:
         - 3306:3306
     environment:
-        MYSQL_USER: hy_yingu
-        MYSQL_PASSWORD: 9DbHMN893iel23anNneop1q 
-        MYSQL_ROOT_PASSWORD: B84NRrkYPXa9zk 
+        MYSQL_USER: xxx 
+        MYSQL_PASSWORD: xxx 
+        MYSQL_ROOT_PASSWORD: xxx
     volumes:
         - /data/mysql:/var/lib/mysql
         # - /data/nagios/etc:/opt/nagios/etc
