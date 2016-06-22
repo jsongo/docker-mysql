@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  mysql:
+    image: daocloud.io/mysql
+    container_name: mysql 
+    restart: always
+    ports:
+        - 3306:3306
+    environment:
+        MYSQL_USER: hy_yingu
+        MYSQL_PASSWORD: 9DbHMN893iel23anNneop1q 
+        MYSQL_ROOT_PASSWORD: B84NRrkYPXa9zk 
+    volumes:
+        - /data/mysql:/var/lib/mysql
+        # - /data/nagios/etc:/opt/nagios/etc
