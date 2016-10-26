@@ -9,10 +9,9 @@ services:
     #ports:
         #- 3307:3306
     environment:
-        MYSQL_USER: jsongo 
-        MYSQL_PASSWORD: AAH7eWGFvd63et 
-        MYSQL_ROOT_PASSWORD: B84NRrkYPXa9zk 
-        VERSION: 1.0.1
+        MYSQL_USER: xxx 
+        MYSQL_PASSWORD: xxx 
+        MYSQL_ROOT_PASSWORD: xxx
     volumes:
         - /data/mysql:/var/lib/mysql
         - ./my.cnf:/etc/mysql/my.cnf
